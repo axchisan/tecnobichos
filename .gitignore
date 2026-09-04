@@ -1,0 +1,22 @@
+# Secretos y credenciales — NUNCA subir
+*.pem
+*.key
+.env
+.env.*
+**/storage_state*.json
+**/*secret*
+**/*token*.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Temporales
+*.log
+*.tmp
+.DS_Store
+jobs/
+scratch/
